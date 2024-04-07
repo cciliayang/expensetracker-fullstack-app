@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Expense Category</title>
+</head>
+<body>
+<h1>Add Expense Category</h1>
+
+<form action="/api/addCategory" method="post">
+    <label for="categoryName">Category Name:</label>
+    <input type="text" id="categoryName" name="expenseType" required><br>
+
+    <button type="submit">Add Category</button>
+</form>
+</body>
+</html>
